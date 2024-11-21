@@ -65,5 +65,28 @@ students.splice(1,2);
 
 console.log(students);
 
+var phrase = 'Mischief Managed';
+
+var trimmedphrase = phrase.trim();
+
+var lowercasephrase = trimmedphrase.toLowerCase();
+
+var finalphrase = lowercasephrase.concat('- Harry');
+
+console.log(finalphrase);
+
+let wizards = ['Harry', 'Hermione', 'Ron'];
+
+wizards.push('Luna','Draco');
+
+console.log(wizards);
+
+var message = 'Welcome to Hogwarts School of Witchcraft and Wizardry';
+
+var modifiedmessage = message.slice('Hogwarts');
+
+var finalmessage = modifiedmessage.concat('Castle');
+
+console.log(finalmessage);
 
 
