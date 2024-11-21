@@ -34,3 +34,6 @@ console.log(firstName.concat('',lastName));
 var sentence = 'Draco is a good wizard';
 
 console.log(sentence.replace('good', 'bad'));
+
+let houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw'];
+
