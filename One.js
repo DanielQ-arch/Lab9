@@ -33,7 +33,23 @@ console.log(firstName.concat('',lastName));
 
 var sentence = 'Draco is a good wizard';
 
-console.log(sentence.replace('good', 'bad'));
+var newsentence = sentence.replace('good','bad');
+
+console.log(newsentence);
 
 let houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw'];
+
+houses.push('Slytherin');
+
+houses.pop();
+
+console.log(houses);
+
+let spells = ['Alohomora', 'Lumos', 'Nox'];
+
+spells.unshift(Accio);
+
+spells.shift();
+
+console.log(spells);
 
