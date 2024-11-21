@@ -53,3 +53,17 @@ spells.shift();
 
 console.log(spells);
 
+let professors = ['Dumbledore', 'McGonagall', 'Snape', 'Hagrid'];
+
+selectedprofessors = professors.slice(1,3);
+
+console.log(selectedprofessors);
+
+let students = ['Neville', 'Seamus', 'Dean', 'Parvati'];
+
+students.splice(1,2);
+
+console.log(students);
+
+
+
